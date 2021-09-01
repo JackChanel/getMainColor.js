@@ -1,0 +1,7 @@
+<!-- canvas 不需要可以隐藏  top:-40000rpx -->
+<canvas type="2d" id="myCanvas" style="position: fixed;top:-500px;"></canvas>
+<view wx:for="{{rgb}}" style="background: {{item}};height: 300rpx;width: 300rpx;">
+</view>
+<view wx:for="{{imagePathArray}}">
+  <image style="width: 200px; height: 200px; background-color: #eeeeee;" src="{{item}}"></image>
+</view>
